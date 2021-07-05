@@ -1,0 +1,40 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+}
+#author-name{
+    color:blueviolet;
+}
+small{
+    display: block;
+    text-align: center;
+}
+.first-section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+.first-div-manage{
+    width: 50%;
+    padding: 100px 50px;
+}
+.second-div-manage img{
+    width: 80%;
+    
+}
+nav{
+    font-size: 2em;
+    text-decoration: none;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(230, 8, 45));
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 7%;
+    margin: 30%;
+    
+  
+}
