@@ -23,6 +23,16 @@ small{
     margin: 0;
 
 }
+.third-section{
+    text-align: center;
+}
+.fourth-section{
+    display: inline-flex;
+    margin-right: 7%;
+}
+.fourth-section img{
+    width: 90%;
+}
 .first-div-manage{
     width: 50%;
     padding: 100px 50px;
@@ -38,6 +48,13 @@ small{
     width: 50%;
     padding: 200px 50px;
 
+}
+.fourth-section-div{
+    width: 30%;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    padding-left: 7%;
+    
 }
 
 nav{
