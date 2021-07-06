@@ -29,6 +29,7 @@ small{
 .fourth-section{
     display: inline-flex;
     margin-right: 7%;
+    margin-left: 5%;
 }
 .fourth-section img{
     width: 90%;
@@ -36,10 +37,14 @@ small{
 .fifth-section{
     display: inline-flex;
     box-shadow: 20px 20px 20px 20px gray;
-   margin: 5% 20% 5% 20%;
+    margin: 5% 20% 5% 20%;
     align-items: center;
     border-radius: 10px;
-    border-image:;
+    border-left: 10px solid;
+    border-image: linear-gradient(red,green);
+    border-image-slice: 1;
+    border-right: 10px solid;
+    
 }
 .last-section{
     text-align: center;
@@ -67,11 +72,16 @@ small{
     box-shadow: 10px 10px 10px gray;
     border-radius: 10px;
     padding-left: 7%;
+    padding-right: 2%;
+    
     
 }
 .fifth-section-div{
     text-align: center;
     padding: 20px 2em;
+    
+    
+    
 }
 
 nav{
